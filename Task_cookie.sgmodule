@@ -22,7 +22,6 @@ Rewrite: AcFun = type=http-request,pattern=^https:\/\/api\-new\.app\.acfun\.cn\/
  
 Rewrite: 什么值得买 = type=http-request,pattern=^https:\/\/www\.smzdm\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.cookie.js
  
- 小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login, requires-body=1, max-size=0, script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/backUp/xmSports.js
 
 [MITM]
-hostname = %APPEND% ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, passport.biligame.com, c.tieba.baidu.com, api.kkmh.com,wapside.189.cn:9001,*.acfun.cn,*.smzdm.com,account.huami.com
+hostname = %APPEND% ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, passport.biligame.com, c.tieba.baidu.com, api.kkmh.com,wapside.189.cn:9001,*.acfun.cn,*.smzdm.com
