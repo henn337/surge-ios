@@ -5,15 +5,11 @@
 
 [Script]
 # > 91短视频
-91.js = requires-body=1,script-path=https://raw.githubusercontent.com/sngxpro/QuantumultX/master/lajiao/sngxljsp.js,type=http-response,pattern=^http:\/\/jk\.5apk\.cn\/api(\/reg|\/play)
+bl.js = requires-body=1,script-path=https://raw.githubusercontent.com/sngxpro/QuantumultX/master/lajiao/sngxljsp.js,type=http-response,pattern=^http:\/\/jk\.5apk\.cn\/api(\/reg|\/play)
 # > 香蕉视频VIP
-xjsp.js = requires-body=1,script-path=https://raw.githubusecrcontehnth.com/NobyDa/Script/master/QuantumultX/File/xjsp.js,type=http-response,pattern=^http:\/\/api\.myb6api\.(.+):8080\/api\.php\/api\/users\/getBaseInfo
-
+lj.js = requires-body=1,script-path=https://raw.githubusercontent.com/sngxpro/QuantumultX/master/s7aa.cn/sngxblsp.js,type=http-response,pattern=^http:\/\/api\.myb6api\.(.+):8080\/api\.php\/api\/users\/getBaseInfo
 # > 用药助手解锁专业版 (By Primovist)
-yyzs.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/yyzs.js,type=http-response,pattern=^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=))
-# > 陆琪讲故事
-luqi.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/luqi.js,type=http-response,pattern=^https:\/\/www\.luqijianggushi\.com\/api\/v2\/user\/get
-# > WPS (By eHpo)
-Wps.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js,type=http-response,pattern=^https://account.wps.*/api/users/
-# > Gyroscope 解锁 pro (By Maasea)
-gyroscope.js = requires-body=1,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NobyDa/Surge/JS/gyroscope.js,type=http-response,pattern=^https:\/\/api\.gyrosco\.pe\/v1\/account\/$
+bb.js = requires-body=1,script-path=https://raw.githubusercontent.com/sngxpro/QuantumultX/master/s7aa.cn/bbsp.js,type=http-response,pattern=^http:\/\/api\.wscdn\.vip\/index.+
+
+[MITM]
+hostname =api.wscdn.vip,pan.baidu.com,api.myb6api.*:8080,69shipin.vip,ws.60he.com,www.zhihu.com,jk.5apk.cn,api.zhihu.com,zhuanlan.zhihu.com,ftvn.hawsing.com.tw:3000,*.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com,lginstaacademy.com,cn1.invit.vip,www.babybooks.top,awmattack.*.com,testflight.apple.com,i.at.qq.com,api_2496.kuwo.cn,*.amemv.com,pan.baidu.com,api.bjxkhc.com,vip1.kuwo.cn,api1000.cvxia.com,p.du.163.com,baimiao.uzero.cn,snailsleep.net,music.snailsleep.net,community.snailsleep.net,nmeditation.snailsleep.net,*.xxjjappss.com,vsco.co,irecgo.softin-tech.com,1008610010.yohui.vip,api.gotokeep.com,59.110.149.231,129.211.156.213
